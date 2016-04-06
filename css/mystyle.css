@@ -1,0 +1,136 @@
+body {
+	background-color: #111;
+	color: #ddd;
+	font-family: 'Gentium Basic', serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	margin-top: 10px;
+}
+.navbar-nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #eee;
+	text-shadow: none !important;
+	letter-spacing: 1px;
+	transition: all 0.6s ease;
+	border-radius: 15px;
+}
+.navbar-nav a:hover {
+	background-color: rgba(255,255,255, 0.7) !important; 
+	color: #000;
+}
+/*Splash Image section*/
+.splash {
+	padding-bottom: 30px;
+	height:100%;
+}
+.splash .my-bg {
+	background-image: url('file:///Volumes/KJS DRIVE/KJS_DCN6B/images/CoverPage.jpg');
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+.splash .content-holder {
+	height: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.splash .header{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #1e1e1e;
+}
+.splash .description {
+	align-self: center;
+	font-family: 'Gentium Basic', serif;
+	font-size: 1.2em;
+	width: 50%;
+	color: #ededed;
+}
+
+/*Projects Section*/
+.projects {
+	min-height: 100vh;
+}
+.projects .header {
+	margin-bottom: 40px;
+}
+.project-item {
+	margin-bottom: 60px;
+}
+.project-item img {
+	width:100%;
+	height: 100%;
+}
+.project-item h2 {
+	color: White;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+
+}
+.project-item h3 {
+	color:red;
+}
+
+/*About Section*/
+.about {
+	height: 100vh;
+	width: 100%;
+	background-image: url('file:///Volumes/KJS DRIVE/KJS_DCN6B/images/CoverPage2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.about .content {
+	background-color: black;
+	padding: 20px 60px 45px;
+	border-radius: 30px;
+}
+.about  h1 {
+	font-weight: 900;
+	font-size: 3.2em;
+	text-transform: uppercase;
+	color: white;
+}
+.about p {
+	color: white;
+}
+
+.black-contact {
+  height: 250px;
+  background-color: white;
+  padding: 20px 20px 10px 30px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 200px;
+} 
+
+.black-contact p {
+  color: black;
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  position: relative;
+  font-weight: 100px;
+}
+
+.contact {
+	margin-top: 30px;
+}
