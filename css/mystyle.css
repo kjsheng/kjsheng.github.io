@@ -32,7 +32,7 @@ h1, h2, h3 {
 	height:100%;
 }
 .splash .my-bg {
-	background-image: url('file:///Volumes/KJS DRIVE/KJS_DCN6B/images/CoverPage.jpg');
+	background-image: url('../images/CoverPage.jpg');
 	height:100vh;
 	background-size: cover;
 	background-position: center;
@@ -89,7 +89,7 @@ h1, h2, h3 {
 .about {
 	height: 100vh;
 	width: 100%;
-	background-image: url('file:///Volumes/KJS DRIVE/KJS_DCN6B/images/CoverPage2.jpg');
+	background-image: url('../images/CoverPage2.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
